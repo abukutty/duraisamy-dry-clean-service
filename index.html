@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duraisamy salavaikadai</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--navigation-->
+    <nav class="navigation" id="navigation">
+        <h2>Duraisamy iron service</h2>
+        <ul>
+            <li><a href="#img">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#contectus">Contect Us</a></li>
+            <li>Other Services</li>
+        </ul>
+        <button onclick="menuopen()">☰</button>
+    </nav>
+
+    <!--images-->
+    <div id="img">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            <img src="image1.jpeg" alt="service-image">
+            <img src="image2.jpeg" alt="service-image">
+            <img src="image3.jpeg" alt="service-image">
+            <img src="image4.jpeg" alt="service-image">
+            <img src="image5.jpeg" alt="service-image">
+            <img src="image6.jpeg" alt="service-image">
+            <img src="image7.jpeg" alt="service-image">
+            <img src="image8.jpeg" alt="service-image">
+            <img src="image9.jpeg" alt="service-image">
+            <img src="image10.jpeg" alt="service-image">
+            <img src="image1.jpeg" alt="service-image">
+            <img src="image2.jpeg" alt="service-image">
+            <img src="image3.jpeg" alt="service-image">
+            <img src="image4.jpeg" alt="service-image">
+            <img src="image5.jpeg" alt="service-image">
+            <img src="image6.jpeg" alt="service-image">
+            <img src="image7.jpeg" alt="service-image">
+            <img src="image8.jpeg" alt="service-image">
+            <img src="image9.jpeg" alt="service-image">
+            <img src="image10.jpeg" alt="service-image">
+        </marquee>
+    </div>
+
+    <!--about us-->
+    <div id="aboutus">
+        <div class="aboutus">
+            <h2>About Us</h2>
+            <p>
+                Hi, I am Duraisamy, and I have over 40 years of experience in the ironing service.
+                We provide all types of services such as full dry cleaning, steam ironing, normal
+                ironing, and more. Our shop is one of the best in Kolli Hills. I chose to stay in
+                Kolli Hills because proper ironing services were not available here, so I decided to
+                bring this service to the people. We also offer home delivery, and our pricing is
+                always cheap and best for everyone.
+            </p>
+        </div>
+    </div>
+
+    <!--contect us-->
+    <div id="contectus">
+        <div class="contectus">
+            <h2>Contect Us</h2>
+            <p>Duraisamy salavaikadai , tvr building , 1st floor , semmedu , kolli Hills , tamilnadu - 637411</p>
+            <button onclick="window.open('https://wa.me/9047854498','_blank')">Chat</button>
+        </div>
+    </div>
+
+    <!--menu-->
+    <div id="menu">
+        <ul>
+            <div class="cancelbutton">
+                <button onclick="menuclose()">✖</button>
+            </div>
+            
+            <li><a href="#img" onclick="menuclose()">Home</a></li>
+            <li><a href="#aboutus" onclick="menuclose()">About Us</a></li>
+            <li><a href="#contectus" onclick="menuclose()">Contect Us</a></li>
+            <li><a>Other Services</a></li>
+        </ul>
+    </div>
+
+    <script src="dry.js"></script>
+</body>
+
+</html>
