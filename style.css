@@ -128,7 +128,7 @@ img {
     height: 100%;
     width: 30%;
     left: -32%;
-    transition: 2s;
+    transition: 1s;
 }
 
 .cancelbutton {
@@ -209,4 +209,5 @@ img {
     #menu {
         display: none
     }
+
 }
